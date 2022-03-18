@@ -1,14 +1,21 @@
 <html>
     <head>
         <script>
-            var numero
-            var numero = prompt ("qual numero eh maior, 7 ou 9?");
+           var numero1 = parseInt(prompt("Digite um número"));
+        var numero2 = parseInt(prompt("Digite um número"));
+        var numero3 = parseInt(prompt("Digite um número"));
+     
 
-            var numero = prompt ("qual numero eh maior, 9 ou 15?");
+            if (numero1 > numero2 && numero1 > numero3) {
+                document.write("O número maior é: " +numero1);
+            }
 
-            var numero = prompt ("qual numero eh maior, 15 ou 30?")
-            if (numero == 30){
-                document.write ("esta certo, o maior eh numero 30, voce sabe matematica basica");
+            if (numero2 > numero1 && numero2 > numero3) {
+                document.write("O número maior é: " +numero2);
+            }
+
+            if (numero3 > numero1 && numero3 > numero2) {
+                document.write("O número maior é: " +numero3);
             }
         </script>
     </head>
